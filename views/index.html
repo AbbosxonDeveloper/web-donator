@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation App</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+    <img class="background-home" src="./img/donate-bck.jpg" alt="bck">
+    <div class="container">
+        <!-- <header>
+            <a class="logo-href" href="/home">
+                <h3>
+                    <i>Donate</i>
+                </h3>
+            </a>
+
+            <ul class="ul-head">
+                <li class="li-head">
+                    <a class="ul-list-head" href="/donators">donators</a>
+                </li>
+                <li class="li-head">
+                    <a class="ul-list-head" href="/documentation">documentation</a>
+                </li>
+            </ul>
+        </header> -->
+
+        <div id="not_donated" class="alert-none">
+
+            <div class="alert-donate">
+                <h5 id="name_res">ism: </h5>
+                <h5 id="card_res">card: </h5>
+                <h5 id="money_res">pul: </h5>
+                <h5 id="comment_res">comment: </h5>
+                <a href="/donates">
+                    <button class="btn btn-dark w-100">donators list</button>
+                </a>
+                <button id="ok_close" class="ok-close btn btn-success">ok</button>
+            </div>
+        </div>
+
+        <form id="Donate_form" class="donation_card">
+            <span id="errors"></span>
+            <h1 class="text-center mt-2 donate-head">Donate Me</h1>
+            <input id="nameInput" class="form-control my-3" type="text" placeholder="enter name..." required>
+            <input id="CardInput" class="form-control my-3" type="number" placeholder="Card" required>
+            <label class="d-flex align-items-center">
+                <input style="max-width: 90%;" id="MoneyInput" class="form-control my-3 " type="number" placeholder="money" required>
+                <h3> <i class="text-black-50 mx-3"> so'm</i></h3>
+            </label>
+
+            <textarea rows="3" id="commentArea" class="w-100 my-3 form-control" placeholder="comment..." required></textarea>
+            <button type="submit" class="donate-btn btn btn-success py-2 text-warning">donate</button>
+            <a href="/donates">
+                <button type="button" class="text-center btn_list btn w-25 mt-4 text-light"> list</button>
+            </a>
+        </form>
+
+    </div>
+    <script src="./js/index.js"></script>
+
+</body>
+
+</html>

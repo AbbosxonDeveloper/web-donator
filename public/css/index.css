@@ -1,0 +1,89 @@
+.donation_card {
+    display: flex;
+    flex-direction: column;
+    max-width: 850px;
+    background: linear-gradient(rgb(170, 161, 161), rgb(248, 129, 129), rgb(224, 121, 121)) 20%;
+    margin: 100px auto;
+    padding: 30px 30px;
+    border-radius: 10px;
+}
+
+.background-home {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -5;
+    transform: translateY(-100px);
+}
+
+.donate-btn {
+    font-size: 25px;
+}
+
+.donate-head {
+    color: rgb(57, 126, 126);
+    font-weight: 30px;
+}
+
+.logo-href {
+    text-decoration: none;
+    color: rgb(100, 100, 148);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.ul-list-head {
+    padding: 10px 20px;
+    background: black;
+}
+
+.li-head {
+    margin-bottom: 10px
+}
+
+.ul-head {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+}
+
+.alert-none {
+    display: none;
+}
+
+.alert-donate {
+    width: 340px;
+    max-height: 200px;
+    margin: 0 auto;
+    padding: 20px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    transform: translateY(50px);
+    background: rgb(7, 171, 48);
+    border-radius: 10px;
+    color: #fff;
+}
+
+.glass_donate {
+    position: fixed;
+    width: 200%;
+    height: 200%;
+    top: 0;
+    left: 0;
+    background: rgb(84, 2, 58);
+    z-index: 10;
+    opacity: 0.9;
+}
+
+.ok-close {
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+}
+
+.btn_list {
+    background-color: #FFE53B;
+    background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
+}

@@ -1,0 +1,32 @@
+/* .background-home {
+    position: fixed;
+    width: 100%;
+    height: 120%;
+    z-index: -5;
+    transform: translateY(-30px);
+} */
+
+body {
+    background: rgb(201, 119, 119);
+}
+
+.btn_go_donate {
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+}
+
+.list_header {
+    color: rgb(208, 193, 193);
+    font-weight: 700;
+}
+
+.list_footer {
+    width: 100%;
+    height: 230px;
+    background-color: black;
+    color: wheat;
+}
+
+.color_a {
+    color: white;
+}
