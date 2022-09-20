@@ -16,7 +16,7 @@ const DONATORS = (req, res) => {
         let data = donation.map(dons => {
             dons.userId = dons.donation_Id
             dons.donator = dons.donator
-            dons.moneyy = (`${dons.money}`)
+            dons.moneyy = (`${parseFloat(dons.money).toFixed(2)}`)
             return { donator: dons.donator, money: dons.moneyy, userId: dons.userId }
         })
         return res.send(data)

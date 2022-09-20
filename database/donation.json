@@ -1,7 +1,16 @@
-[{
-    "donation_Id": 1,
-    "card": "4563",
-    "donator": "ali",
-    "comment": "kanal rivoji uchun",
-    "money": "50000"
-}]
+[
+    {
+        "donation_Id": 1,
+        "card": "4563",
+        "donator": "ali",
+        "comment": "kanal rivoji uchun",
+        "money": "50000"
+    },
+    {
+        "donation_Id": 2,
+        "card": "5005",
+        "donator": "yaxshi inson",
+        "comment": "omad !!!",
+        "money": "698500"
+    }
+]
